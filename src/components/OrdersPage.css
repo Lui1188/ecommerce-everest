@@ -1,0 +1,14 @@
+.order-empty {
+  margin: 3rem;
+  padding-bottom: 5rem;
+}
+
+.order-shop-now {
+  background-color: rgb(26, 25, 32);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}

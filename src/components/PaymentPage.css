@@ -1,0 +1,76 @@
+.payment-container h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  height: 15vh;
+}
+
+.payment-container h4 {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  margin-top: 10px;
+}
+
+.payment-container h4 a {
+  text-decoration: none;
+  color: black;
+}
+
+.payment-section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+}
+
+.delivery-title,
+.order-title,
+.payment-title {
+  flex: 0.2;
+  font-size: 1.1rem;
+}
+
+.delivery-title h2,
+.order-title h2,
+.payment-title h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.delivey-content,
+.order-summary,
+.payment-details {
+  flex: 0.8;
+  width: 90%;
+}
+
+.order-summary-container {
+  display: block;
+}
+
+.order-summary-details {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+.order-summary-info {
+  margin-left: 1rem;
+}
+
+.order-summary-info p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+
+.order-summary-img img {
+  height: 3rem;
+  width: auto;
+}
+
+.payment-priceContainer h4 {
+  margin: 20px 0;
+}

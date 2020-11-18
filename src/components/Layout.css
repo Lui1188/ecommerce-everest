@@ -1,0 +1,11 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+body {
+  background: rgb(245, 245, 245);
+}

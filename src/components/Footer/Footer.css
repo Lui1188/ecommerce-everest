@@ -1,0 +1,14 @@
+.footer {
+  height: 6rem;
+  background-color: rgb(26, 25, 32);
+  color: #f5f5f5;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  margin-top: 20vh;
+}
+
+.footer-title {
+  font-weight: 600;
+  color: rgba(236, 133, 36, 0.959);
+}

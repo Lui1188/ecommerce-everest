@@ -1,0 +1,134 @@
+.product-container {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  background: rgb(245, 245, 245);
+}
+
+/* Left */
+
+.product-left {
+  display: flex;
+  margin: 3rem;
+}
+
+.product-image {
+  width: auto;
+  height: 25rem;
+}
+
+/* Right */
+
+.product-right {
+  display: flex;
+  width: 100%;
+}
+
+.product-list {
+  display: flex;
+  background-color: grey;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+}
+
+.product-data {
+  border-bottom: 1px solid rgba(121, 118, 122, 0.6);
+  width: 100%;
+  max-width: 30rem;
+  text-align: center;
+  box-shadow: 0 8px 6px -6px black;
+  background-color: white;
+  padding: 1rem;
+}
+
+.product-data p {
+  font-size: 1.5rem;
+}
+
+.product-price {
+  font-weight: 600;
+}
+
+.product-size {
+  border-bottom: 1px solid rgba(121, 118, 122, 0.6);
+  width: 100%;
+  max-width: 30rem;
+  text-align: center;
+  box-shadow: 0 8px 6px -6px black;
+  background-color: white;
+  padding: 1rem;
+}
+
+.size-title h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.size-btn {
+  border: 1px solid rgba(121, 118, 122, 0.6);
+  background-color: white;
+  margin: 2px;
+}
+
+.cart-btn {
+  background-color: rgba(241, 171, 18, 0.959);
+  box-shadow: 0 6px 10px -6px black;
+  border: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 769px) {
+  .product-data p {
+    font-size: 1.2rem;
+  }
+
+  .cart-btn {
+    font-size: 1.2rem;
+  }
+
+  .product-image {
+    width: auto;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .product-data p {
+    font-size: 1.1rem;
+  }
+
+  .cart-btn {
+    font-size: 1.1rem;
+  }
+
+  .product-image {
+    width: auto;
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .product-container {
+    display: block;
+  }
+
+  .product-left {
+    justify-content: center;
+  }
+
+  .product-right {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}

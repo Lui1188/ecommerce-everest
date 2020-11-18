@@ -1,0 +1,18 @@
+.subtotal-container {
+  display: flex;
+  border-bottom: 1px solid rgba(121, 118, 122, 0.6);
+  box-shadow: 0 8px 6px -6px black;
+  background-color: white;
+  padding: 1rem;
+  margin-right: 2rem;
+}
+
+.checkout-btn {
+  background-color: rgba(241, 171, 18, 0.959);
+  border: 1px solid rgba(121, 118, 122, 0.6);
+  padding: 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 3rem;
+  margin-top: 1rem !important;
+}
